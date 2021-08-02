@@ -1,4 +1,4 @@
-//从头到尾打印链表
+//浠庡ご鍒板熬鎵撳嵃閾捐〃
 
 class Solution {
     public int[] reversePrint(ListNode head) {
