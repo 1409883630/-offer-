@@ -1,6 +1,7 @@
-//½£Ö¸ Offer 15. ¶þ½øÖÆÖÐ1µÄ¸öÊý
-//±àÐ´Ò»¸öº¯Êý£¬ÊäÈëÊÇÒ»¸öÎÞ·ûºÅÕûÊý£¨ÒÔ¶þ½øÖÆ´®µÄÐÎÊ½£©£¬
-//·µ»ØÆä¶þ½øÖÆ±í´ïÊ½ÖÐÊý×ÖÎ»ÊýÎª '1' µÄ¸öÊý£¨Ò²±»³ÆÎª ººÃ÷ÖØÁ¿).£©¡£
+//å‰‘æŒ‡ Offer 15. äºŒè¿›åˆ¶ä¸­1çš„ä¸ªæ•°
+//ç¼–å†™ä¸€ä¸ªå‡½æ•°ï¼Œè¾“å…¥æ˜¯ä¸€ä¸ªæ— ç¬¦å·æ•´æ•°ï¼ˆä»¥äºŒè¿›åˆ¶ä¸²çš„å½¢å¼ï¼‰ï¼Œ
+//è¿”å›žå…¶äºŒè¿›åˆ¶è¡¨è¾¾å¼ä¸­æ•°å­—ä½æ•°ä¸º '1' çš„ä¸ªæ•°ï¼ˆä¹Ÿè¢«ç§°ä¸º æ±‰æ˜Žé‡é‡).ï¼‰ã€‚
+//è¾“å…¥å¿…é¡»æ˜¯é•¿åº¦ä¸º 32 çš„ äºŒè¿›åˆ¶ä¸² 
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
