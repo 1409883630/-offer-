@@ -1,16 +1,16 @@
-//½£Ö¸ Offer 17. ´òÓ¡´Ó1µ½×î´óµÄnÎ»Êý
-//ÊäÈëÊý×Ö n£¬°´Ë³Ðò´òÓ¡³ö´Ó 1 µ½×î´óµÄ n Î»Ê®½øÖÆÊý¡£
-//±ÈÈçÊäÈë 3£¬Ôò´òÓ¡³ö 1¡¢2¡¢3 Ò»Ö±µ½×î´óµÄ 3 Î»Êý 999¡£
+//å‰‘æŒ‡ Offer 17. æ‰“å°ä»Ž1åˆ°æœ€å¤§çš„nä½æ•°
+//è¾“å…¥æ•°å­— nï¼ŒæŒ‰é¡ºåºæ‰“å°å‡ºä»Ž 1 åˆ°æœ€å¤§çš„ n ä½åè¿›åˆ¶æ•°ã€‚
+//æ¯”å¦‚è¾“å…¥ 3ï¼Œåˆ™æ‰“å°å‡º 1ã€2ã€3 ä¸€ç›´åˆ°æœ€å¤§çš„ 3 ä½æ•° 999
 class Solution {
     public int[] printNumbers(int n) {
-        //¶¨ÒåÒ»¸östring×Ö·û´®s´æ·Å×î´óÊý
+        //å®šä¹‰ä¸€ä¸ªstringå­—ç¬¦ä¸²så­˜æ”¾æœ€å¤§æ•°
         String s = "";
         for (int i = 1; i <= n; i++) {
             s+=9;
         }
-        //½«×Ö·û´®s×ªÎªintÀàÐÍ
+        //å°†å­—ç¬¦ä¸²sè½¬ä¸ºintç±»åž‹
         int i1 = Integer.parseInt(s);
-        //´´½¨³¤¶ÈÎªi1µÄintÊý×é²¢Í¨¹ýforÑ­»·³õÊ¼»¯
+        //åˆ›å»ºé•¿åº¦ä¸ºi1çš„intæ•°ç»„å¹¶é€šè¿‡forå¾ªçŽ¯åˆå§‹åŒ–
         int[] nums = new int[i1];
         for (int i = 0; i < i1; i++) {
             nums[i] = i+1;
