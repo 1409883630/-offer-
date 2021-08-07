@@ -1,17 +1,17 @@
-//½£Ö¸ Offer 24. ·´×ªÁ´±í
-//¶¨ÒåÒ»¸öº¯Êı£¬ÊäÈëÒ»¸öÁ´±íµÄÍ·½Úµã£¬·´×ª¸ÃÁ´±í²¢Êä³ö·´×ªºóÁ´±íµÄÍ·½Úµã¡£
+//å‰‘æŒ‡ Offer 24. åè½¬é“¾è¡¨ã€‚
+//å®šä¹‰ä¸€ä¸ªå‡½æ•°ï¼Œè¾“å…¥ä¸€ä¸ªé“¾è¡¨çš„å¤´èŠ‚ç‚¹ï¼Œåè½¬è¯¥é“¾è¡¨å¹¶è¾“å‡ºåè½¬åé“¾è¡¨çš„å¤´èŠ‚ç‚¹ã€‚
 class Solution {
     public ListNode reverseList(ListNode head) {
-     ListNode prev =null;//¶¨ÒåÇ°Çı½áµã£¬ËäÈ»ÏÖÔÚÎª¿Õ
-    ListNode cur = head;//µ±Ç°½áµãÎªÍ·½Úµã
+     ListNode prev =null;//å®šä¹‰å‰é©±ç»“ç‚¹ï¼Œè™½ç„¶ç°åœ¨ä¸ºç©º
+    ListNode cur = head;//å½“å‰ç»“ç‚¹ä¸ºå¤´èŠ‚ç‚¹
     while(cur!=null){
-       ListNode next=cur.next;//¶¨Òåºó¼Ì½áµã
+       ListNode next=cur.next;//å®šä¹‰åç»§ç»“ç‚¹
 
-       cur.next=prev;//¸Ä±äÒıÓÃÖ¸ÏòµÄ¶ÔÏó
-       prev=cur;//Ç°Çı½áµãºóÒÆ
-       cur=next;//µ±Ç°½áµãºóÒÆ
+       cur.next=prev;//æ”¹å˜å¼•ç”¨æŒ‡å‘çš„å¯¹è±¡
+       prev=cur;//å‰é©±ç»“ç‚¹åç§»
+       cur=next;//å½“å‰ç»“ç‚¹åç§»
         
     }
-       return prev;//·µ»Ø
+       return prev;//è¿”å›
     }
 }
