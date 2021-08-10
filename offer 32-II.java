@@ -1,5 +1,5 @@
-//��ָ Offer 32 - II. ���ϵ��´�ӡ������ II
-//���ϵ��°����ӡ��������ͬһ��Ľڵ㰴�����ҵ�˳���ӡ��ÿһ���ӡ��һ�С�
+//剑指 Offer 32 - II. 从上到下打印二叉树 
+//从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行。
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
  Queue<TreeNode> queue = new LinkedList<>();
