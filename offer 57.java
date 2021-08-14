@@ -1,6 +1,6 @@
-//½£Ö¸ Offer 57. ºÍÎªsµÄÁ½¸öÊý×Ö
-//ÊäÈëÒ»¸öµÝÔöÅÅÐòµÄÊý×éºÍÒ»¸öÊý×Ös£¬ÔÚÊý×éÖÐ²éÕÒÁ½¸öÊý£¬
-//Ê¹µÃËüÃÇµÄºÍÕýºÃÊÇs¡£Èç¹ûÓÐ¶à¶ÔÊý×ÖµÄºÍµÈÓÚs£¬ÔòÊä³öÈÎÒâÒ»¶Ô¼´¿É¡£
+//å‰‘æŒ‡ Offer 57. å’Œä¸ºsçš„ä¸¤ä¸ªæ•°å­—
+//è¾“å…¥ä¸€ä¸ªé€’å¢žæŽ’åºçš„æ•°ç»„å’Œä¸€ä¸ªæ•°å­—sï¼Œåœ¨æ•°ç»„ä¸­æŸ¥æ‰¾ä¸¤ä¸ªæ•°ï¼Œ
+//ä½¿å¾—å®ƒä»¬çš„å’Œæ­£å¥½æ˜¯sã€‚å¦‚æžœæœ‰å¤šå¯¹æ•°å­—çš„å’Œç­‰äºŽsï¼Œåˆ™è¾“å‡ºä»»æ„ä¸€å¯¹å³å¯
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int i = 0, j = nums.length - 1;
