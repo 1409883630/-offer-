@@ -1,6 +1,6 @@
-//½£Ö¸ Offer 07. ÖØ½¨¶þ²æÊ÷
-//ÊäÈëÄ³¶þ²æÊ÷µÄÇ°Ðò±éÀúºÍÖÐÐò±éÀúµÄ½á¹û£¬Çë¹¹½¨¸Ã¶þ²æÊ÷²¢·µ»ØÆä¸ù½Úµã¡£
-//¼ÙÉèÊäÈëµÄÇ°Ðò±éÀúºÍÖÐÐò±éÀúµÄ½á¹ûÖÐ¶¼²»º¬ÖØ¸´µÄÊý×Ö
+//å‰‘æŒ‡ Offer 07. é‡å»ºäºŒå‰æ ‘
+//è¾“å…¥æŸäºŒå‰æ ‘çš„å‰åºéåŽ†å’Œä¸­åºéåŽ†çš„ç»“æžœï¼Œè¯·æž„å»ºè¯¥äºŒå‰æ ‘å¹¶è¿”å›žå…¶æ ¹èŠ‚ç‚¹ã€‚
+//å‡è®¾è¾“å…¥çš„å‰åºéåŽ†å’Œä¸­åºéåŽ†çš„ç»“æžœä¸­éƒ½ä¸å«é‡å¤çš„æ•°å­—ã€
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
           int n = preorder.length;
