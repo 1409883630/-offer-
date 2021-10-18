@@ -1,25 +1,25 @@
-//½£Ö¸ Offer 58 - I. ·­×ªµ¥´ÊË³Ğò
-//ÊäÈëÒ»¸öÓ¢ÎÄ¾ä×Ó£¬·­×ª¾ä×ÓÖĞµ¥´ÊµÄË³Ğò£¬µ«µ¥´ÊÄÚ×Ö·ûµÄË³Ğò²»±ä¡£
-//Îª¼òµ¥Æğ¼û£¬±êµã·ûºÅºÍÆÕÍ¨×ÖÄ¸Ò»Ñù´¦Àí¡£ÀıÈçÊäÈë×Ö·û´®"I am a student. "£¬ÔòÊä³ö"student. a am I"¡£
+//å‰‘æŒ‡ Offer 58 - I. ç¿»è½¬å•è¯é¡ºåº
+//è¾“å…¥ä¸€ä¸ªè‹±æ–‡å¥å­ï¼Œç¿»è½¬å¥å­ä¸­å•è¯çš„é¡ºåºï¼Œä½†å•è¯å†…å­—ç¬¦çš„é¡ºåºä¸å˜ã€‚
+//ä¸ºç®€å•èµ·è§ï¼Œæ ‡ç‚¹ç¬¦å·å’Œæ™®é€šå­—æ¯ä¸€æ ·å¤„ç†ã€‚ä¾‹å¦‚è¾“å…¥å­—ç¬¦ä¸²"I am a student. "ï¼Œåˆ™è¾“å‡º"student. a am I"
 class Solution {
     public String reverseWords(String s) {
-      //½«´«½øÀ´µÄ×Ö·û´®ÒÔ¿Õ¸ñ²ğ·Ö
+      //å°†ä¼ è¿›æ¥çš„å­—ç¬¦ä¸²ä»¥ç©ºæ ¼æ‹†åˆ†
         String[] strings = s.trim().split(" ");
         StringBuffer stringBuffer = new StringBuffer();
-        //´ÓÎ²°Í¿ªÊ¼±éÀú
+        //ä»å°¾å·´å¼€å§‹éå†
         for (int i = strings.length - 1; i >= 0; i--) {
             if (strings[i].equals("")) {
                 continue;
             }
-            //µ½Í·ÁË£¬appendÈ»ºóÈ¥¿Õ¸ñ
+            //åˆ°å¤´äº†ï¼Œappendç„¶åå»ç©ºæ ¼
             if (i == 0) {
                 stringBuffer.append(strings[i].trim());
             } else {
-                // ÅÂÓĞ¶àÓàµÄ¿Õ¸ñ£¬È¥µô£¬ÔÙ¼ÓÉÏÈ¥
+                // æ€•æœ‰å¤šä½™çš„ç©ºæ ¼ï¼Œå»æ‰ï¼Œå†åŠ ä¸Šå»
                 stringBuffer.append(strings[i].trim()).append(" ");
             }
         }
-        //Êä³öString ÍêÊÂ£¬°²ÅÅ£¡
+        //è¾“å‡ºString å®Œäº‹ï¼Œå®‰æ’ï¼
         return stringBuffer.toString();
 
     }
